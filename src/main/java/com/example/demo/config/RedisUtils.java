@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 @Service
-public class RedisUtils {
+public class RedisUtils implements  Serializable{
 
     @Autowired
     private RedisTemplate redisTemplate;

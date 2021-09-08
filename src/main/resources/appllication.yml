@@ -1,15 +1,15 @@
 spring:
-  ## druid连接池配置
-  #  涉及需要切换数据源时
-  #  1.不能使用事务，否则数据源不会切换，使用的还是是第一次加载的数据源 。
-  #  　　删除 操作多数据源的方法或者类、接口 上的 注解 @Transactional() 即可。
+  servlet:
+    context-path: /jns
+  ## druid连接池配置 涉及需要切换数据源时
+  #  1.不能使用事务，否则数据源不会切换，使用的还是是第一次加载的数据源 ,删除 操作多数据源的方法或者类、接口 上的 注解 @Transactional() 即可。
   #  2.第一次加载的数据源之后，第二次（第三次...）操作其它数据源，如果数据源不存在，使用的还是第一次加载的数据源
   #  3.数据源名称最好不要包含下滑线，下滑线的数据源切换不了
   # 默认数据源
   datasource:
     dynamic:
-      primary: master
-      strict: false
+      primary: master #设置默认的数据源或者数据源组,默认值即为master
+      strict: false #设置严格模式,默认false不启动. 启动后在未匹配到指定数据源时候回抛出异常,不启动会使用默认数据源.
       hikari:
         min-idle: 10
         idle-timeout: 60000
@@ -42,4 +42,47 @@ spring:
           username: scott
           password: 123456
           driverClassName: oracle.jdbc.driver.OracleDriver
-
+logging:
+  config: classpath:Log4j2.xml
+http:
+  store: classpath:test.p12
+  password: 123456
+  port: 8099
+server:
+  port: 8099
+  address: 127.0.0.1
+  servlet:
+    context-path: /jns
+  #https 配置
+  ssl:
+    key-store: classpath:test.p12
+    key-store-password: 123456
+    key-store-type: PKCS12
+    key-alias: ServerConfig
+  jetty:
+    # acceptor线程数
+    acceptors: 2
+    # selector线程数
+    selectors: 4
+  #tomcat的配置可以保留，切换回来可用，反正不会生效
+  tomcat:
+    remote-ip-header: x-forward-for
+    uri-encoding: UTF-8
+    max-threads: 2000
+    #background-processor-delay: 30
+    max-http-header-size: 8096
+    max-connections: 5000
+    connection-timeout: 600000
+    max-http-form-post-size: 10000000
+# JWT配置
+jwt:
+  # 密匙KEY
+  secret: JWTSecret
+  # HeaderKEY
+  tokenHeader: Authorization
+  # Token前缀字符
+  tokenPrefix: Security-c
+  # 过期时间 单位秒 1天后过期=86400 7天后过期=604800
+  expiration: 86400
+  # 配置不需要认证的接口
+  antMatchers: /index

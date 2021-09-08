@@ -3,6 +3,7 @@ package com.example.demo.config;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
@@ -19,6 +20,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 
+import java.io.Serializable;
 import java.time.Duration;
 
 /**
@@ -27,7 +29,8 @@ import java.time.Duration;
 @ConfigurationProperties(prefix = "redis")
 @EnableCaching
 @Configuration
-public class RedisConfig extends CachingConfigurerSupport {
+@Data
+public class RedisConfig extends CachingConfigurerSupport implements Serializable {
     private String host;
     private int port;
     private int timeout;
