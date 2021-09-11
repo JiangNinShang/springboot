@@ -10,21 +10,6 @@ import org.springframework.web.bind.annotation.*;
 public class CommonController {
     private CommonService commonService;
 
-    /*
-     * 描述
-     *
-     * @param wuser
-     * @Return Object
-     * @author JNS
-     * @date 2021/9/7 18:30
-     * @version 1.0
-     */
-    @PostMapping("/login")
-    private Object Login(@RequestBody Wuser wuser) {
-        int i = 1/0;
-        return new Object();
-    }
-
     @GetMapping("/aa")
     private ApiRestResponse<Object> Login() {
         try {

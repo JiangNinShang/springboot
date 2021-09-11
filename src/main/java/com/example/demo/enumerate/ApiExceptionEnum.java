@@ -1,7 +1,8 @@
-package com.example.demo.config;
+package com.example.demo.enumerate;
 
 /**
  * @author jns
+ * 请求枚举
  */
 public enum ApiExceptionEnum {
     HTTP_ERROR(40000, "请求错误"),
