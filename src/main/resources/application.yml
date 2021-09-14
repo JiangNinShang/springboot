@@ -1,0 +1,63 @@
+server:
+  port: 8099
+  servlet:
+    context-path: /WuHu
+  http:
+    port: 8888
+  ssl:
+    enabled: true
+    key-store: classpath:tomcat.keystore
+    key-store-password: 123456
+    key-password: 123456
+    key-store-type: JKS
+spring:
+  datasource:
+    p6spy: true
+    dynamic:
+      datasource:
+        master:
+          url: jdbc:oracle:thin:@localhost:1521:orcl
+          username: scott
+          password: 123456
+          driverClassName: oracle.jdbc.driver.OracleDriver
+        mysql:
+          url: jdbc:mysql://localhost:3306?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true&useSSL=false
+          username: root
+          password: root
+          driverClassName: com.mysql.jdbc.Driver
+  #  redis:
+  #    database: 0
+  #    # Redis服务器地址
+  #    host: 127.0.0.1
+  #    # Redis服务器连接端口
+  #    port: 6379
+  #    # Redis服务器连接密码（默认为空）
+  #    password:
+  #    # 连接池最大连接数（使用负值表示没有限制）
+  #    timeout: 10000 # 连接超时时间（毫秒）
+  #    pool:
+  #      maxTotal: 8
+  #      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+  #      maxWaitMillis: -1
+  #      # 连接池中的最大空闲连接
+  #      maxIdle: 8
+  #      # 连接池中的最小空闲连接
+  #      testOnBorrow: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: false
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  file:
+    name: wdnmd.log
+  pattern:
+    console: '%clr(%d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n)'
+    file: '%d{yyyy-MM-dd HH:mm:ss.SSS} >>> [%thread] >>> %-5level >>> %logger{50} >>> %msg%n'
+  #    path: logs/log_lzy
+  config: classpath:logconfig.xml
