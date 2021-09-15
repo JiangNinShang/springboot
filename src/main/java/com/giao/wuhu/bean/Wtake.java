@@ -10,6 +10,9 @@ import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * @author giao
+ */
 @Data
 @Table(name = "Wtake")
 public class Wtake implements Serializable, Cloneable {

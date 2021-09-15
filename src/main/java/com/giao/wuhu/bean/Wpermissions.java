@@ -15,7 +15,7 @@ import java.io.Serializable;
  */
 @TableName("Wpermissions")
 @Data
-public class Wpermissions implements Serializable, Cloneable {
+public class Wpermissions implements Serializable {
     /**
      * 编号
      */

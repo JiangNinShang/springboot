@@ -15,7 +15,7 @@ import java.io.Serializable;
  */
 @Table(name = "WrolePermissions")
 @Data
-public class WrolePermissions implements Serializable, Cloneable {
+public class WrolePermissions implements Serializable {
     /**
      * 编号
      */

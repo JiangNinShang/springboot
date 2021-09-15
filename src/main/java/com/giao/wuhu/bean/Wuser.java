@@ -12,6 +12,9 @@ import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * @author giao
+ */
 @Data
 @Table(name = "Wuser")
 public class Wuser implements Serializable, Cloneable {
@@ -41,14 +44,4 @@ public class Wuser implements Serializable, Cloneable {
      * 状态
      */
     private Integer state;
-
-    private List<Wrole> wroles;
-
-    public List<Wpermissions> getPermissions() {
-        List<Wpermissions> wpermissions = new LinkedList<>();
-        for (Wrole wrole : this.getWroles()) {
-            wpermissions.addAll(wrole.getWpermissions());
-        }
-        return wpermissions;
-    }
 }

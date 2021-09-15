@@ -9,7 +9,7 @@ import java.io.Serializable;
  */
 @Data
 public class ApiRestResponse<T> implements Serializable {
-    private static final int OK_CODE = 20000;
+    private static final int OK_CODE = 200;
     private static final String OK_MSG = "SUCCESS";
     private Integer status;
     private String msg;

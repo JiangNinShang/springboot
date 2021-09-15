@@ -9,6 +9,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
+/**
+ * @author giao
+ */
 @Table(name = "WuserRole")
 @Data
 public class WuserRole implements Serializable, Cloneable {
