@@ -1,22 +1,22 @@
-12:51:16.646 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
-12:51:16.679 [restartedMain] INFO  com.giao.wuhu.WuhuApplication - Starting WuhuApplication using Java 1.8.0_301 on LAPTOP-2QUNQ43F with PID 20076 (F:\Java project\wuhu\target\classes started by giao in F:\Java project\wuhu)
-12:51:16.683 [restartedMain] INFO  com.giao.wuhu.WuhuApplication - No active profile set, falling back to default profiles: default
-12:51:18.381 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8099"]
-12:51:18.382 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-12:51:18.385 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-12:51:18.385 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
-12:51:18.480 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/WuHu] - Initializing Spring embedded WebApplicationContext
-12:51:18.934 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
-12:51:18.938 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-12:51:19.035 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - master - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
-12:51:19.038 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
-12:51:19.038 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - mysql - Starting...
-12:51:19.198 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - mysql - Start completed.
-12:51:19.199 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 2 个数据源
-12:51:19.199 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 mysql 成功
-12:51:19.199 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功
-12:51:19.199 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 master
-12:51:20.167 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8099"]
-12:51:20.666 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-12:51:20.686 [restartedMain] INFO  com.giao.wuhu.WuhuApplication - Started WuhuApplication in 4.633 seconds (JVM running for 6.446)
-12:51:21.161 [RMI TCP Connection(1)-192.168.7.187] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/WuHu] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-16 13:43:23.930 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+09-16 13:43:23.975 [restartedMain] INFO  com.giao.wuhu.WuhuApplication - Starting WuhuApplication using Java 1.8.0_301 on LAPTOP-2QUNQ43F with PID 1388 (F:\Java project\wuhu\target\classes started by giao in F:\Java project\wuhu)
+09-16 13:43:23.982 [restartedMain] INFO  com.giao.wuhu.WuhuApplication - No active profile set, falling back to default profiles: default
+09-16 13:43:26.258 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8099"]
+09-16 13:43:26.259 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09-16 13:43:26.263 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09-16 13:43:26.264 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+09-16 13:43:26.375 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/WuHu] - Initializing Spring embedded WebApplicationContext
+09-16 13:43:26.927 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+09-16 13:43:26.931 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+09-16 13:43:27.076 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - master - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+09-16 13:43:27.081 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+09-16 13:43:27.081 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - mysql - Starting...
+09-16 13:43:27.912 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - mysql - Start completed.
+09-16 13:43:27.912 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 2 个数据源
+09-16 13:43:27.912 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 mysql 成功
+09-16 13:43:27.913 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功
+09-16 13:43:27.913 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 master
+09-16 13:43:29.186 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8099"]
+09-16 13:43:29.410 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09-16 13:43:29.433 [restartedMain] INFO  com.giao.wuhu.WuhuApplication - Started WuhuApplication in 6.428 seconds (JVM running for 9.223)
+09-16 13:43:30.285 [RMI TCP Connection(3)-192.168.9.187] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/WuHu] - Initializing Spring DispatcherServlet 'dispatcherServlet'

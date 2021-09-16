@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35536d85-8aea-45f6-9975-357bd9698e98" name="更改" comment="更新">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tomcat.p12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log4j2/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log4j2/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4j2/lzy-log4j2-demo-INFO-2021-09-14_1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4j2/lzy-log4j2-demo-WARN-2021-09-14_1.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log4j2/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log4j2/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2/warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wpermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wpermissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wrole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wrole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/WrolePermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/WrolePermissions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wtake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wtake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wuser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/WuserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/WuserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/config/ApiRestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/config/ApiRestResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/controller/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/controller/CommonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/controller/WuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/controller/WuserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logconfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +100,10 @@
       <workItem from="1631635803658" duration="318000" />
       <workItem from="1631636241879" duration="983000" />
       <workItem from="1631637324417" duration="1288000" />
-      <workItem from="1631669460822" duration="17096000" />
+      <workItem from="1631669460822" duration="17394000" />
+      <workItem from="1631700181543" duration="352000" />
+      <workItem from="1631753501135" duration="6492000" />
+      <workItem from="1631777867479" duration="1555000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1631637423854</created>
@@ -123,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631638896456</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新">
+      <created>1631699865513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631699865513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
