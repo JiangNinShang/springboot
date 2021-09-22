@@ -5,14 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35536d85-8aea-45f6-9975-357bd9698e98" name="更改" comment="更新">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/controller/WebSocketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/service/WebSocketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/utils/WebSocketClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log4j2/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log4j2/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log4j2/lzy-log4j2-demo-INFO-2021-09-14_1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log4j2/lzy-log4j2-demo-WARN-2021-09-14_1.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log4j2/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log4j2/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2/warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/WuhuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/WuhuApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wpermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wpermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wrole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wrole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/WrolePermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/WrolePermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wtake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wtake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/Wuser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/WuserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/bean/WuserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/controller/WuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/giao/wuhu/controller/WuserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -103,7 +113,12 @@
       <workItem from="1631669460822" duration="17394000" />
       <workItem from="1631700181543" duration="352000" />
       <workItem from="1631753501135" duration="6492000" />
-      <workItem from="1631777867479" duration="1555000" />
+      <workItem from="1631777867479" duration="1702000" />
+      <workItem from="1631841315793" duration="2048000" />
+      <workItem from="1631866840928" duration="653000" />
+      <workItem from="1631933543208" duration="292000" />
+      <workItem from="1632274193197" duration="3488000" />
+      <workItem from="1632279641141" duration="6693000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1631637423854</created>
@@ -126,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631699865513</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新">
+      <created>1631780358423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631780358423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +169,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新" />
     <option name="LAST_COMMIT_MESSAGE" value="更新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/giao/wuhu/service/WebSocketService.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
